@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="preload" href="/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="stylesheet" href="/_next/static/css/a1fed555eea57145.css" data-precedence="next"/>
+        <link rel="preload" href="/_next/static/chunks/webpack-2c1ef1e94cb1ddf2.js" as="script" fetchPriority="low"/>
+        <script src="/_next/static/chunks/fd9d1056-847435009c51993b.js" async=""></script>
+        <script src="/_next/static/chunks/864-ca9ec65a2d04bdb1.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-8f13c08947745519.js" async=""></script>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/>
+        <meta name="next-size-adjust"/>
+        <script src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" noModule=""></script>
+    </head>
+    <body class="__className_e66fe9">
+        <script>
+            !function() {
+                try {
+                    var d = document.documentElement
+                      , c = d.classList;
+                    c.remove('light', 'dark');
+                    var e = localStorage.getItem('theme');
+                    if ('system' === e || (!e && true)) {
+                        var t = '(prefers-color-scheme: dark)'
+                          , m = window.matchMedia(t);
+                        if (m.media !== t || m.matches) {
+                            d.style.colorScheme = 'dark';
+                            c.add('dark')
+                        } else {
+                            d.style.colorScheme = 'light';
+                            c.add('light')
+                        }
+                    } else if (e) {
+                        c.add(e || '')
+                    }
+                    if (e === 'light' || e === 'dark')
+                        d.style.colorScheme = e
+                } catch (e) {}
+            }()
+        </script>
+        <div class="lg:hidden flex flex-row justify-between items-center w-screen p-2 h-20 bg-zinc-200 dark:bg-zinc-900 fixed top-0 left-0 ">
+            <div class="flex justify-start flex-row items-center gap-2 p-3 cursor-pointer">
+                <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
+                    <span class="flex h-full w-full items-center justify-center rounded-full bg-zinc-100 dark:bg-zinc-800">SS</span>
+                </span>
+                <div class="flex flex-col items-start">
+                    <h3 class="scroll-m-20 max-md:text-base lg:text-xl font-semibold tracking-tight max-sm:tracking-tighter ">Shivansh Srivastava</h3>
+                    <p class=" text-zinc-500 max-md:text-base tracking-tighter">Frontend Developer</p>
+                </div>
+            </div>
+            <div class="flex flex-row justify-center items-center gap-2">
+                <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50" type="button" id="radix-:Rpla:" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2"></path>
+                        <path d="M12 20v2"></path>
+                        <path d="m4.93 4.93 1.41 1.41"></path>
+                        <path d="m17.66 17.66 1.41 1.41"></path>
+                        <path d="M2 12h2"></path>
+                        <path d="M20 12h2"></path>
+                        <path d="m6.34 17.66-1.41 1.41"></path>
+                        <path d="m19.07 4.93-1.41 1.41"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                    </svg>
+                    <span class="sr-only">Toggle theme</span>
+                </button>
+                <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:R19la:" data-state="closed">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 bg-zinc-300 dark:bg-zinc-800 p-1 rounded-sm">
+                        <line x1="4" x2="20" y1="12" y2="12"></line>
+                        <line x1="4" x2="20" y1="6" y2="6"></line>
+                        <line x1="4" x2="20" y1="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class=" mt-20 lg:mt-0 a flex h-screen w-screen flex-row gap-2 ">
+            <div class="hidden lg:block h-fit w-1/5 bg-zinc-200 dark:bg-zinc-900 flex-col p-3  ">
+                <div class="flex justify-start flex-row items-center gap-2 p-3 cursor-pointer">
+                    <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
+                        <span class="flex h-full w-full items-center justify-center rounded-full bg-zinc-100 dark:bg-zinc-800">SS</span>
+                    </span>
+                    <div class="flex flex-col items-start">
+                        <h3 class="scroll-m-20 max-md:text-base lg:text-xl font-semibold tracking-tight max-sm:tracking-tighter ">Shivansh Srivastava</h3>
+                        <p class=" text-zinc-500 max-md:text-base tracking-tighter">Frontend Developer</p>
+                    </div>
+                </div>
+                <ul style="opacity:1;transform:scale(0) translateZ(0)">
+                    <a href="/" class="flex flex-row justify-start items-center gap-2 p-3  bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                        </svg>
+                        <!-- -->
+                        Home
+                    </a>
+                    <a href="/projects" class="flex flex-row justify-start items-center gap-2 p-3  bg-zinc-300 dark:bg-zinc-900 text-zinc-500 hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder-kanban">
+                            <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+                            <path d="M8 10v4"></path>
+                            <path d="M12 10v2"></path>
+                            <path d="M16 10v6"></path>
+                        </svg>
+                        <!-- -->
+                        Projects
+                    </a>
+                    <a href="/certificates" class="flex flex-row justify-start items-center gap-2 p-3  bg-zinc-300 dark:bg-zinc-900 text-zinc-500 hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll-text">
+                            <path d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v3h4"></path>
+                            <path d="M19 17V5a2 2 0 0 0-2-2H4"></path>
+                            <path d="M15 8h-5"></path>
+                            <path d="M15 12h-5"></path>
+                        </svg>
+                        <!-- -->
+                        Certifications
+                    </a>
+                    <a href="/stack" class="flex flex-row justify-start items-center gap-2 p-3  bg-zinc-300 dark:bg-zinc-900 text-zinc-500 hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                        <!-- -->
+                        Stack
+                    </a>
+                    <a href="/about" class="flex flex-row justify-start items-center gap-2 p-3  bg-zinc-300 dark:bg-zinc-900 text-zinc-500 hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="10" r="3"></circle>
+                            <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"></path>
+                        </svg>
+                        <!-- -->
+                        About
+                    </a>
+                    <a href="/contact" class="flex flex-row justify-start items-center gap-2 p-3  bg-zinc-300 dark:bg-zinc-900 text-zinc-500 hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail">
+                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        <!-- -->
+                        Contact
+                    </a>
+                    <hr class="m-4 opacity-20"/>
+                    <span class="text-lg text-zinc-500" style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">Follow</span>
+                    <a href="https://www.linkedin.com/in/shivanshs04/" class="flex flex-row justify-start items-center gap-2 p-3 text-zinc-500 hover:text-black hover:dark:text-white bg-zinc-300 dark:bg-zinc-950 rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect width="4" height="12" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <!-- -->
+                        LinkedIn
+                    </a>
+                    <a href="https://www.github.com/shivanshS04/" class="flex flex-row justify-start items-center gap-2 p-3 text-zinc-500 hover:text-black hover:dark:text-white bg-zinc-300 dark:bg-zinc-950 rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
+                            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                        </svg>
+                        <!-- -->
+                        Github
+                    </a>
+                    <a href="https://www.instagram.com/shivanshS04" class="flex flex-row justify-start items-center gap-2 p-3 text-zinc-500 hover:text-black hover:dark:text-white bg-zinc-300 dark:bg-zinc-950 rounded-md first:mt-10 mt-2 cursor-pointer " style="opacity:0;transform:translateX(-50px) translateY(-20px) translateZ(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                        </svg>
+                        <!-- -->
+                        Instagram
+                    </a>
+                </ul>
+                <div class="flex flex-row justify-between items-center text-zinc-500 p-3 bg-zinc-100 rounded-xl mt-5 dark:bg-zinc-800">
+                    <p>Select Theme  </p>
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50" type="button" id="radix-:R5mla:" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2"></path>
+                            <path d="M12 20v2"></path>
+                            <path d="m4.93 4.93 1.41 1.41"></path>
+                            <path d="m17.66 17.66 1.41 1.41"></path>
+                            <path d="M2 12h2"></path>
+                            <path d="M20 12h2"></path>
+                            <path d="m6.34 17.66-1.41 1.41"></path>
+                            <path d="m19.07 4.93-1.41 1.41"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                        </svg>
+                        <span class="sr-only">Toggle theme</span>
+                    </button>
+                </div>
+            </div>
+            <div class="max-md:w-full lg:w-4/5">
+                <div class="flex flex-col justify-center items-start gap-2 w-full h-full p-10">
+                    <div class="lg:w-2/4">
+                        <h1 class="scroll-m-20 text-4xl  tracking-tight lg:text-5xl">नमस्कार ! 🙏</h1>
+                        <h1 class="scroll-m-20 font-bold text-4xl  tracking-tight lg:text-5xl">I &#x27;m Shivansh. </h1>
+                        <h1 class="scroll-m-20  text-4xl  tracking-tight lg:text-5xl">
+                            I Build 
+                            <span class="text-zinc-500 font-bold">
+                                <span></span>
+                                <span style="color:gray" class="styles-module_blinkingCursor__yugAC styles-module_blinking__9VXRT">_</span>
+                            </span>
+                        </h1>
+                        <p class="leading-7 [&amp;:not(:first-child)]:mt-6 text-zinc-500 md:w-2/4 lg:w-full">Passionate about tech, coding, and continuous growth in software development. Thrive on diverse projects, tech exploration, and innovative collaboration. 🚀👨‍💻</p>
+                    </div>
+                    <div class="flex flex-row justify-start items-center gap-3 mt-4 lg:w-2/4">
+                        <a href="/Shivansh_Resume.pdf" download="" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 bg-zinc-100 text-zinc-900 hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80 h-10 px-4 py-2">Resume</a>
+                        <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 h-10 px-4 py-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                            </svg>
+                            E-mail
+                        </button>
+                        <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+                            <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/_next/static/chunks/webpack-2c1ef1e94cb1ddf2.js" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:HL[\"/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/css/a1fed555eea57145.css\",\"style\"]\n0:\"$L3\"\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "4:I{\"id\":6054,\"chunks\":[\"272:static/chunks/webpack-2c1ef1e94cb1ddf2.js\",\"971:static/chunks/fd9d1056-847435009c51993b.js\",\"864:static/chunks/864-ca9ec65a2d04bdb1.js\"],\"name\":\"\",\"async\":false}\n6:I{\"id\":1729,\"chunks\":[\"272:static/chunks/webpack-2c1ef1e94cb1ddf2.js\",\"971:static/chunks/fd9d1056-847435009c51993b.js\",\"864:static/chunks/864-ca9ec65a2d04bdb1.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":4099,\"chunks\":[\"398:static/chunks/398-77517bf175bae41b.js\",\"678:static/chunks/678-76375f1f23407de2.js\",\"51:static/chunks/"])
+        </script>
+        <script>
+            self.__next_f.push([1, "51-931f98d7a9e7f6bd.js\",\"185:static/chunks/app/layout-20dfdf7f1c8c8a70.js\"],\"name\":\"\",\"async\":false}\n8:I{\"id\":1443,\"chunks\":[\"272:static/chunks/webpack-2c1ef1e94cb1ddf2.js\",\"971:static/chunks/fd9d1056-847435009c51993b.js\",\"864:static/chunks/864-ca9ec65a2d04bdb1.js\"],\"name\":\"\",\"async\":false}\n9:I{\"id\":8639,\"chunks\":[\"272:static/chunks/webpack-2c1ef1e94cb1ddf2.js\",\"971:static/chunks/fd9d1056-847435009c51993b.js\",\"864:static/chunks/864-ca9ec65a2d04bdb1.js\"],\"name\":\"\",\"async\":false}\nb:I{\"id\":6353,\"chunks\":[\"678:"])
+        </script>
+        <script>
+            self.__next_f.push([1, "static/chunks/678-76375f1f23407de2.js\",\"616:static/chunks/616-b5429bd9a313df6f.js\",\"931:static/chunks/app/page-f31a292ee4fdc24f.js\"],\"name\":\"\",\"async\":false}\nc:I{\"id\":4626,\"chunks\":[\"678:static/chunks/678-76375f1f23407de2.js\",\"616:static/chunks/616-b5429bd9a313df6f.js\",\"931:static/chunks/app/page-f31a292ee4fdc24f.js\"],\"name\":\"\",\"async\":false}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "3:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/a1fed555eea57145.css\",\"precedence\":\"next\"}]],[\"$\",\"$L4\",null,{\"buildId\":\"bzZvVpgYTIsQsenaKYhTk\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[false,\"$L5\"],\"globalErrorComponent\":\"$6\",\"children\":[null,[\"$\",\"$L7\",null,{\"children\":[\"$\",\"$L8\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"childProp\":{\"current\":[\"$La\",[\"$\",\"div\",null,{\"className\":\"flex flex-col justify-center items-start gap-2 w-full h-full p-10\",\"children\":[[\"$\",\"$Lb\",null,{}],[\"$\",\"$Lc\",null,{}]]}],null],\"segment\":\"__PAGE__\"},\"styles\":[]}],\"params\":{}}],null]}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "5:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}],[\"$\",\"meta\",\"3\",{\"name\":\"next-size-adjust\"}]]\na:null\n"])
+        </script>
+    </body>
+</html>
