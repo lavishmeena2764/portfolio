@@ -3,7 +3,7 @@ import "./LoaderLogo.css";
 
 class LogoLoader extends React.Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <svg width="495" height="306" viewBox="0 0 1980 1225" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1310.56 617.922L1010.94 790.921C999.364 797.607 985.096 797.607 973.517 790.921L673.903 617.922C662.325 611.236 655.19 598.88 655.19 585.503V239.502C655.19 226.13 662.325 213.774 673.903 207.087L973.517 34.0858C985.096 27.3995 999.364 27.4 1010.94 34.0858L1310.56 207.087C1322.14 213.774 1329.27 226.13 1329.27 239.502V585.503C1329.27 598.88 1322.14 611.236 1310.56 617.922Z" stroke="#DDDDDD" stroke-width="1.6"/>

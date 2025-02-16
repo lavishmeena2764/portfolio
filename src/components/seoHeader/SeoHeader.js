@@ -4,7 +4,7 @@ import {
   greeting,
   seo,
   socialMediaLinks,
-  experience,
+  // experience,
   contactPageData,
   certifications,
 } from "../../portfolio.js";
